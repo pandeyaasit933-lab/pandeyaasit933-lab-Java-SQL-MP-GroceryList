@@ -1,0 +1,25 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/GroceryRepositoryTest.java",
+      "testCases": [
+        {
+          "methodName": "groceryListEmptyOnStartTest",
+          "label": "Ensures that grocery list is empty on application start",
+          "description": "Verifies that getAllGroceries() returns an empty list when the grocery table has just been created."
+        },
+        {
+          "methodName": "groceryListAddTest1",
+          "label": "Adds one grocery item",
+          "description": "Verifies that after adding 'apples' to the database, getAllGroceries() returns a list containing only 'apples'."
+        },
+        {
+          "methodName": "groceryListAddTest2",
+          "label": "Adds one grocery item",
+          "description": "Verifies that after adding 'bananas' to the database, getAllGroceries() returns a list containing only 'bananas'."
+        }
+      ]
+    }
+  ]
+}
